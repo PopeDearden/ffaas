@@ -47,7 +47,7 @@ class Header extends Component {
                         <i class="fas fa-bars"></i>
                     </div>
                 </div>
-          
+                <div className="Mobile-Menu">
                     <div className={`Menu-${this.state.menu}`}>
                         <div className="Menu-List">
                             <h2>Home</h2>
@@ -65,6 +65,8 @@ class Header extends Component {
                             <h2>Donate</h2>
                         </div>
                     </div>
+                </div>
+
             </div>
         )
 
