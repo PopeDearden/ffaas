@@ -128,7 +128,10 @@ p{
 .Hamburger{
     display: none;
 }
-
+.Menu-false {
+    height: 0px;
+    width: 100vw;
+}
 
 
 @media (max-width: 1000px) {
