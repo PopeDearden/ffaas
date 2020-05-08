@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import '../../styles/App.scss'
+import Slide from 'react-reveal/Slide'
+
+
 
 class Header extends Component {
     constructor(s) {
@@ -44,23 +47,24 @@ class Header extends Component {
                         <i class="fas fa-bars"></i>
                     </div>
                 </div>
-                <div className={`Menu-${this.state.menu}`}>
-                    <div className="Menu-List">
-                        <h2>Home</h2>
+          
+                    <div className={`Menu-${this.state.menu}`}>
+                        <div className="Menu-List">
+                            <h2>Home</h2>
+                        </div>
+                        <div className="Menu-List">
+                            <h2>About</h2>
+                        </div>
+                        <div className="Menu-List">
+                            <h2>Research</h2>
+                        </div>
+                        <div className="Menu-List">
+                            <h2>Hopi</h2>
+                        </div>
+                        <div className="Menu-List">
+                            <h2>Donate</h2>
+                        </div>
                     </div>
-                    <div className="Menu-List">
-                        <h2>About</h2>
-                    </div>
-                    <div className="Menu-List">
-                        <h2>Research</h2>
-                    </div>
-                    <div className="Menu-List">
-                        <h2>Hopi</h2>
-                    </div>
-                    <div className="Menu-List">
-                        <h2>Donate</h2>
-                    </div>
-                </div>
             </div>
         )
 

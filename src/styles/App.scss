@@ -95,6 +95,7 @@ p{
         height: 80px;
         margin-left: 50px;
     }
+    z-index: 1;
 }
 .Header {
     position: sticky;
@@ -103,13 +104,14 @@ p{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    z-index: 1;
 }
 .Menu {
     display: flex;
     justify-content: flex-start;
     width: auto;
     margin-right: 50px;
-    z-index: 1;
+    z-index: 0;
 }
 .Menu-Item {
     h2{
@@ -134,10 +136,8 @@ p{
 .Hamburger{
     display: none;
 }
-.Menu-false {
-    height: 0px;
-    width: 100vw;
-    overflow: hidden;
+.Menu-true {
+display: none
 }
 
 
@@ -171,34 +171,37 @@ p{
         margin-right: 50px;
         font-size: 2rem;
     }
-    .Menu-false{
-        display: none;
-    }
-    .Header{
-        z-index: 0;
+    .Header-Top{
+        z-index: 1;
     }
     .Menu-true{
+        width:100vw;
+        position: static;
+        min-height:85vh;
+        height: auto;
+        background-color: $silver;
+        color: $main-color;
+        overflow: hidden;
+        // transition: min-height .25s ease-in-out;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        min-height:85vh;
-        min-width: 100vw;
-        background-color: $silver;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        top: 15vh;
-        color: $main-color;
-        z-index: 1;
-        transition: .25s ease-in;
     }
     .Menu-false {
-        min-height: 0px;
-        max-height: 0px;
+        background-color: $silver;
         width: 100vw;
+        min-height: 0vh;
+        height: 0vh;
+        // transition: min-height .25s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; 
+        overflow: hidden;
     }
     .Menu-List{
         margin-left: 25px;
+        margin-top: 10px;
     }
 }

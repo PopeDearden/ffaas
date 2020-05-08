@@ -22,36 +22,6 @@ class Home extends Component {
                         </Slide>
                     </div>
                 </div>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
-                <h2>asdfasdfasdf</h2>
             </div>
         )
 
