@@ -14,7 +14,8 @@ class Home extends Component {
                     <div className="Cover">
                         <Slide left cascade>
                             <div className="Cover-Box">
-                                <h1>The Foundation For Ancient American Studies</h1>
+                                <h2>The Foundation For</h2>
+                                <h1>Ancient American Studies</h1>
                                 <h2>Exploring the archaeology, language, culture, and religion of mesoamerica</h2>
                                 <button>Learn more</button>
                             </div>
